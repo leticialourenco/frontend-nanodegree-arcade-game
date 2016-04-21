@@ -1,3 +1,10 @@
+// Helper variables
+
+// Rows where enemies can be generated + variable helper used
+// to select the position in the array
+var enemyRows = [60, 145, 230];
+var index;
+
 // Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
