@@ -3,11 +3,11 @@
 ##Frogger
 ### How to play
 1. Open the index.html file in a browser
-2. Use the keyes listed below to move your player in the game area
-⋅⋅* Up
-⋅⋅* Down
-⋅⋅* Left
-⋅⋅* Right
+2. Use the following keyes to move the player in the game area
+  *<up>
+  *<down>
+  *<left>
+  *<right>
 
 ### Game rules
 * The objective is to reach the river without colliding with the bugs
