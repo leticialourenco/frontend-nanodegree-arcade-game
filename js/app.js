@@ -133,10 +133,20 @@ Player.prototype.restart = function() {
 };
 
 // Now instantiate your objects.
-// Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-
-
+player = new Player;
+// Place all enemy objects in an array called allEnemies
+allEnemies = [];
+// Populate allEnemies array with enemies
+for (i = 0; i < 4; i++) {
+    enemy = new Enemy();
+    enemy.col = -103;
+    // Randomly assign a row for the enemy to move on
+    index = Math.floor((Math.random() * 3) + 0);
+    enemy.row = enemyRows[index];
+    // Append enemy to the array of enemies
+    allEnemies.push(enemy);
+}
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
