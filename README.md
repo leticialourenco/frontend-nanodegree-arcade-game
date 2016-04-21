@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+# frontend-nanodegree-arcade-game
 
-Students should use this [rubric](https://www.udacity.com/course/viewer/#!/c-nd001/l-2696458597/m-2687128535) for self-checking their submission.
+##Frogger
+### How to play
+1. Open the index.html file in a browser
+2. Use the keyes listed below to move your player in the game area
+..* Up
+..* Down
+..* Left
+..* Right
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+### Game rules
+* The objective is to reach the river without colliding with the bugs
+* When the river is reached by the player you can start over, accumulating points
+* If the player gets hit by a bug, the game restarts with score 0
+
+---
+
+### References
+You can find this game source [here](https://github.com/leticialourenco/frontend-nanodegree-arcade-game.git).
